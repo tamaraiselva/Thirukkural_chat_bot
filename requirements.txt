@@ -1,0 +1,9 @@
+pandas
+streamlit
+python-dotenv
+transformers
+tokenizers
+sentence-transformers==2.4.0
+langchain
+langchain-community
+faiss-cpu
