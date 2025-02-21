@@ -13,6 +13,12 @@ from PIL import Image
 
 warnings.filterwarnings("ignore")
 
+HUGGINGFACEHUB_API_TOKEN = "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"
+MYSQL_HOST = "localhost"
+MYSQL_USER = "root"
+MYSQL_PASSWORD = "Password"
+MYSQL_DATABASE = "database"
+
 api_key = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 torch.classes.__path__ = []
 
